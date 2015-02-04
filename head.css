@@ -1,16 +1,7 @@
-/* reset */
-body, p, div, ul, li {
-	margin: 0;
-	padding: 0;
-}
-
-body {
-	font-family: Helvetica, "Hiragino Sans GB", Tahoma, "Microsoft Yahei", Arial;
-}
-
 .icon {
+	position: relative;
 	height: 200px;
-	width: 150px;
+	width: 140px;
 }
 
 .icon_head {
@@ -50,7 +41,7 @@ body {
 	position: absolute;
 	color: white;
 	font-size: 12px;
-	margin-top: 4px;
+	margin-top: 8px;
 	margin-left: 8px;
 }
 
@@ -60,8 +51,8 @@ body {
 	background: url(img/number_base.png) no-repeat;
 	background-size: 103px;
 	position: absolute;
-	top: 108px;
-	left: 23.5px;
+	top: 106px;
+	left: 18.5px;
 }
 
 .icon_heart {
@@ -86,7 +77,7 @@ body {
 	color: white;
 	font-size: 10px;
 	padding-left: 42px;
-	padding-top: 3px;
+	line-height: 22px;
 	letter-spacing: 1px;
 }
 
@@ -101,7 +92,7 @@ body {
 
 .character_vote {
 	width: 70px;
-	height: 20px;
+	height: 23px;
 	margin: 0 auto;
 	margin-top: 5px;
 	border-radius: 4px;
@@ -112,7 +103,7 @@ body {
 }
 
 .character_vote span {
-	line-height: 20px;
+	line-height: 24px;
 }
 
 .character_vote_normal {
