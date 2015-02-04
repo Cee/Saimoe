@@ -91,9 +91,10 @@ body {
 
 /** bottom **/
 .bottom {
-	width: 320px;
-	height: 260px;
+	width: 280px;
+	height: 280px;
+	margin: 0 auto;
 	background: url(img/text.png) no-repeat;
-	background-size: 320px;
+	background-size: 280px;
 
 }
