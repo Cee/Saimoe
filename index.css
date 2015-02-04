@@ -1,0 +1,49 @@
+/* reset */
+body, p, div, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #f97a35;
+	/*color: #616575;*/
+	font-family: Helvetica, "Hiragino Sans GB", Tahoma, "Microsoft Yahei", Arial;
+	font-size: 16px;
+}
+
+/* layout */
+#mainContainer {
+	width: 320px;
+	margin: 0 auto;
+	height: 670px;
+	background: url(img/bg.png) no-repeat;
+	background-size: 320px;
+}
+
+/** header **/
+.header {
+	height: 160px;
+	background: url(img/img_banner.png) no-repeat;
+	background-size: 320px;
+}
+
+#activity_count {
+	padding-top: 130px;
+	text-align: center;
+	font-size: 14px;
+	color: white;
+}
+
+#activity_count span {
+	border-radius: 4px;
+	background-color: #f16026;
+	padding: 0 5px;
+}
+
+/** main **/
+.main {
+	width: 280px;
+	margin: 10px auto 0 auto;
+	height: 100px;
+	background-color: white;	
+}
