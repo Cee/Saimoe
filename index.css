@@ -88,3 +88,12 @@ body {
 .main_row .icon {
 	margin: 15px 0;
 }
+
+/** bottom **/
+.bottom {
+	width: 320px;
+	height: 260px;
+	background: url(img/text.png) no-repeat;
+	background-size: 320px;
+
+}
